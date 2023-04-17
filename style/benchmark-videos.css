@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+.show-view__content{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.show-view__content__text{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 15%;
+}
+
+.show-view__content__text__link{
+    text-decoration: none;
+    color: green;
+}
+

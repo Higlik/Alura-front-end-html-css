@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
-body{
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+:root{
+    --black--color: #000000;
+    --text--color : #F6F6F6;
+    --green--color : green;
 }
 
 .image-display{
@@ -13,14 +12,7 @@ body{
 }
 
 .title-highlight{
-    color: green;
-}
-
-.show-view{
-    margin: 10% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    color: var(--green--color);
 }
 
 .show-view__content{
@@ -42,19 +34,37 @@ body{
 
 .show-view__buttons{
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
+}
+.show-view__buttons__title{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Krona One', sans-serif;
 }
 
 .show-view__buttons__button{
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--green--color);
     width: 250px;
-    text-align: center;
     border-radius: 16px;
     font-size: 20px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: var(--black--color);
     font-family: 'Montserrat', sans-serif;
 }
 
+.show-view__buttons__button:hover {
+    background-color: rgb(27, 255, 27);
+}
+
+.show-view__buttons__button__img{
+    width: 24px;
+    height: 24px;
+}
