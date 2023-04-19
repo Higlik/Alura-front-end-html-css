@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+@media (max-width: 1200px) {
+    .show-view__content{
+        width: auto;
+    }
+}
+
 :root{
     --black--color: #000000;
     --text--color : #F6F6F6;
@@ -7,8 +13,7 @@
 }
 
 .image-display{
-    width: 490px;
-    height: 550px;
+    width: 50%;
 }
 
 .title-highlight{
@@ -16,19 +21,19 @@
 }
 
 .show-view__content{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .show-view__content__title{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
 }
 
 .show-view__content__text{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -40,7 +45,7 @@
     gap: 10px;
 }
 .show-view__buttons__title{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     font-family: 'Krona One', sans-serif;
 }
@@ -50,9 +55,9 @@
     justify-content: center;
     gap: 16px;
     background-color: var(--green--color);
-    width: 250px;
+    width: 50%;
     border-radius: 16px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;

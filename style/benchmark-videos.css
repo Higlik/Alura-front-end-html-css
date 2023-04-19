@@ -8,9 +8,9 @@
 }
 
 .show-view__content__text{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 15%;
+ 
 }
 
 .show-view__content__text__link{
